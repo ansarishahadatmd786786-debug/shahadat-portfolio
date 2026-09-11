@@ -24,6 +24,11 @@ const projects = [
     description: 'Modern coaching and education website concept designed to present courses, faculty, results, schedules, and enquiries clearly.',
     url: 'https://nexora-academy-swart.vercel.app/',
   },
+  {
+    name: 'AURELIA ESTATES', category: 'Real Estate Website', theme: 'realestate',
+    description: 'Premium real estate website concept designed to showcase luxury properties, locations, services, and enquiries through a polished and immersive digital experience.',
+    url: 'https://aurelia-estates-azure-three.vercel.app/',
+  },
 ]
 
 function ProjectPreview({ name, theme }) {

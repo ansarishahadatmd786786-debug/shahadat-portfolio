@@ -1084,6 +1084,35 @@ img {
   background: #91acd0;
 }
 
+.preview-realestate {
+  background: #23211f;
+  color: #f3eee5;
+}
+
+.preview-realestate .preview-canvas {
+  background: #4a443d;
+}
+
+.preview-realestate .preview-hero-shape {
+  background: #b69a78;
+  clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%, 0 35%);
+  left: 48%;
+  top: 19%;
+  width: 52%;
+}
+
+.preview-realestate .preview-action {
+  background: #d7bb92;
+}
+
+.preview-realestate .preview-tiles i {
+  background: #72665a;
+}
+
+.preview-realestate .preview-tiles i:nth-child(2) {
+  background: #a48b6e;
+}
+
 /* =========================
    WHY WORK WITH ME
 ========================= */
