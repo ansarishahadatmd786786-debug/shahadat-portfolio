@@ -1113,6 +1113,35 @@ img {
   background: #a48b6e;
 }
 
+.preview-law {
+  background: #1d1d1d;
+  color: #f4efe6;
+}
+
+.preview-law .preview-canvas {
+  background: #30302f;
+}
+
+.preview-law .preview-hero-shape {
+  background: #b08a55;
+  clip-path: polygon(32% 0, 100% 0, 100% 100%, 0 100%, 0 42%);
+  left: 47%;
+  top: 18%;
+  width: 53%;
+}
+
+.preview-law .preview-action {
+  background: #d2b17c;
+}
+
+.preview-law .preview-tiles i {
+  background: #4b4b48;
+}
+
+.preview-law .preview-tiles i:last-child {
+  background: #81705a;
+}
+
 /* =========================
    WHY WORK WITH ME
 ========================= */

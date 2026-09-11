@@ -29,6 +29,11 @@ const projects = [
     description: 'Premium real estate website concept designed to showcase luxury properties, locations, services, and enquiries through a polished and immersive digital experience.',
     url: 'https://aurelia-estates-azure-three.vercel.app/',
   },
+  {
+    name: 'VERITAS LEGAL', category: 'Law Firm Website', theme: 'law',
+    description: 'Sophisticated law firm website concept designed to communicate trust, clarity, and professionalism through practice areas, attorneys, insights, and consultation-focused experiences.',
+    url: 'https://veritas-legal-two.vercel.app/',
+  },
 ]
 
 function ProjectPreview({ name, theme }) {
