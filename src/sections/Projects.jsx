@@ -34,18 +34,25 @@ const projects = [
     description: 'Sophisticated law firm website concept designed to communicate trust, clarity, and professionalism through practice areas, attorneys, insights, and consultation-focused experiences.',
     url: 'https://veritas-legal-two.vercel.app/',
   },
+  {
+    name: 'LUMIÈRE PHOTOGRAPHY', category: 'PHOTOGRAPHY WEBSITE', image: '/images/lumiere-photography-home.png',
+    description: 'Premium photography studio website concept featuring immersive 3D visuals, service discovery, booking flows, gallery experiences, and a complete demo shopping journey.',
+    url: 'https://premium-3d-photography-website.vercel.app/',
+  },
 ]
 
-function ProjectPreview({ name, theme }) {
-  return <div className={`project-preview preview-${theme}`} aria-hidden="true">
+function ProjectPreview({ name, theme, image }) {
+  return <div className={`project-preview${theme ? ` preview-${theme}` : ''}`} aria-hidden="true">
     <div className="preview-bar"><span></span><span></span><span></span><i></i></div>
-    <div className="preview-canvas">
+    {image ? <div className="preview-canvas" style={{ padding: 0 }}>
+      <img src={image} alt="" style={{ display: 'block', height: '100%', objectFit: 'cover', objectPosition: 'center top', width: '100%' }} />
+    </div> : <div className="preview-canvas">
       <div className="preview-nav"><b>{name}</b><i></i><i></i></div>
       <div className="preview-hero-shape"></div>
       <div className="preview-copy-lines"><i></i><i></i><i></i></div>
       <div className="preview-action"></div>
       <div className="preview-tiles"><i></i><i></i><i></i></div>
-    </div>
+    </div>}
   </div>
 }
 
@@ -58,8 +65,8 @@ export default function Projects() {
         <p>A selection of fictional demo projects exploring different industries, business goals, and visual directions.</p>
       </div>
       <div className="projects-grid">
-        {projects.map(({ name, category, theme, description, url }, index) => <article className={`project-card project-${index + 1}`} key={name}>
-          <ProjectPreview name={name} theme={theme} />
+        {projects.map(({ name, category, theme, image, description, url }, index) => <article className={`project-card project-${index + 1}`} key={name}>
+          <ProjectPreview name={name} theme={theme} image={image} />
           <div className="project-details">
             <div className="project-meta"><span>{category}</span><span className="demo-badge">Demo Project</span></div>
             <h3>{name}</h3>
