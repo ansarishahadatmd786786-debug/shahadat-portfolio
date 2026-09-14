@@ -40,6 +40,12 @@ const projects = [
     url: 'https://veritas-legal-two.vercel.app/',
   },
   {
+    name: 'AURORA THREADS', category: 'Fashion & E-commerce Website',
+    theme: 'fashion',
+    description: 'Premium fashion e-commerce website concept designed to showcase curated collections, products, fabrics, and a refined shopping experience across desktop and mobile.',
+    url: 'https://aurora-threads-orcin.vercel.app/',
+  },
+  {
     name: 'LUMIÈRE PHOTOGRAPHY', category: 'PHOTOGRAPHY WEBSITE', image: '/images/lumiere-photography-home.png',
     description: 'Premium photography studio website concept featuring immersive 3D visuals, service discovery, booking flows, gallery experiences, and a complete demo shopping journey.',
     url: 'https://premium-3d-photography-website.vercel.app/',
