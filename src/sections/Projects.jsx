@@ -1,5 +1,10 @@
 const projects = [
   {
+    name: 'SmileCraft Dental', category: 'Dental Clinic Website', theme: 'health',
+    description: 'Premium dental clinic website concept designed to build patient trust, showcase services and doctors, and make appointment enquiries simple and accessible.',
+    url: 'https://premium-dental-clinic-website-psi.vercel.app/',
+  },
+  {
     name: 'VelaCare Health', category: 'Healthcare Website', theme: 'health',
     description: 'Modern healthcare website concept focused on clear information, approachable presentation, and responsive user experience.',
     url: 'https://hospital-demo-coral.vercel.app/',
