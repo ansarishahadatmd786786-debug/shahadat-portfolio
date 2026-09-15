@@ -46,6 +46,13 @@ const projects = [
     url: 'https://aurora-threads-orcin.vercel.app/',
   },
   {
+  name: 'AURELIA GRAND RESORT',
+  category: 'Luxury Resort Website',
+  theme: 'resort',
+  description: 'Immersive luxury resort website concept featuring a cinematic 3D hero experience, premium rooms and villas, experiences, dining, wellness, gallery, and responsive booking-focused journeys.',
+  url: 'https://aurelia-grand-resort-six.vercel.app/',
+},
+  {
     name: 'LUMIÈRE PHOTOGRAPHY', category: 'PHOTOGRAPHY WEBSITE', image: '/images/lumiere-photography-home.png',
     description: 'Premium photography studio website concept featuring immersive 3D visuals, service discovery, booking flows, gallery experiences, and a complete demo shopping journey.',
     url: 'https://premium-3d-photography-website.vercel.app/',
