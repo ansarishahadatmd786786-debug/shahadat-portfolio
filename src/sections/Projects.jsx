@@ -57,6 +57,13 @@ const projects = [
     description: 'Premium photography studio website concept featuring immersive 3D visuals, service discovery, booking flows, gallery experiences, and a complete demo shopping journey.',
     url: 'https://premium-3d-photography-website.vercel.app/',
   },
+    {
+    name: 'PEE KAY FURNISHINGS',
+    category: 'Furniture & E-commerce Website',
+    theme: 'furniture',
+    description: 'Premium furniture showroom and e-commerce website concept designed to showcase collections, support custom furniture enquiries, and provide a polished shopping experience across desktop and mobile.',
+    url: 'https://premium-3d-furniture-demo.vercel.app/',
+  },
 ]
 
 function ProjectPreview({ name, theme, image }) {
